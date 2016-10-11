@@ -34,7 +34,7 @@
                   </ul>
                   <div class="tab-content">
                       <div id="paca"class="tab-pane fade in active">
-                          <h3>ケニア国立公園王道7日間 <span><a href="{{route('payPremium')}}" class="btn btn-info btn-lg btn-block">Book Now!!</a></span></h3>
+                          <h3>ケニア国立公園王道7日間 <span></span></h3>
                           <p>（目次）全行程の移動に陸路を利用した、各地の国立公園を周遊するサファリツアーです。アンボセリ国立公園、ナクル湖国立公園、ナイバシャ湖、マサイマラ国立保護区とケニアを縦横無尽に走りサファリを満喫することができます。 </p>
                           <div class="panel panel-default">
                               <div class="panel-body">
