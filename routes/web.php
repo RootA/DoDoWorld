@@ -18,6 +18,8 @@ Route::post('getCheckout', ['as'=>'getCheckout','uses'=>'PaypalController@getChe
 Route::get('getDone', ['as'=>'getDone','uses'=>'PaypalController@getDone']);
 Route::get('getCancel', ['as'=>'getCancel','uses'=>'PaypalController@getCancel']);
 
+Route::post('order-post', ['as'=>'order-post','uses'=>'PaymentController@orderPost']);
+
 Route::get('/bl',['as'=>'pages.blog', 'uses'=>'PagesController@getBlog']);
 Route::get('blog/{slug}',['as' =>'pages.single','uses' => 'PagesController@getSingle'])->where('slug','[\w\d\-\_]+');
 

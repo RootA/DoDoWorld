@@ -1,5 +1,5 @@
 @extends('main')
-
+@section('title','Process')
 @section('breadcrumb')
 <section class="title">
       <div class="container">
