@@ -162,14 +162,14 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+        Laravel\Cashier\CashierServiceProvider::class,
         /*
          * Package Service Providers...
          */
 
         'Collective\Html\HtmlServiceProvider',
         'Netshell\Paypal\PaypalServiceProvider',
-        Laravel\Cashier\CashierServiceProvider::class,
+        'Laravel\Cashier\CashierServiceProvider',
         /*
          * Application Service Providers...
          */

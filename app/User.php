@@ -10,6 +10,7 @@ class User extends Authenticatable
 {
     use Notifiable;
     use Billable;
+    
 
     protected $dates = ['trial_ends_at','subscription_ends_at'];
     /**

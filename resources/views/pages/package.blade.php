@@ -34,7 +34,7 @@
                   </ul>
                   <div class="tab-content">
                       <div id="paca"class="tab-pane fade in active">
-                          <h3>ケニア国立公園王道7日間 <span><a href="order-post" class="btn btn-info btn-lg btn-block">Book Now!!</a>
+                          <h3>ケニア国立公園王道7日間 <span><a href="orders" class="btn btn-info btn-lg btn-block">Book Now!!</a>
                           </span></h3>
                           <p>（目次）全行程の移動に陸路を利用した、各地の国立公園を周遊するサファリツアーです。アンボセリ国立公園、ナクル湖国立公園、ナイバシャ湖、マサイマラ国立保護区とケニアを縦横無尽に走りサファリを満喫することができます。 </p>
                           <div class="panel panel-default">
@@ -131,7 +131,7 @@
                       </div>
                       <!--/End of PacA-->
                        <div id="pacb"class="tab-pane fade">
-                              <h3>空路でらくらく・マサイマラ4日間 <span><a href="" class="btn btn-info btn-lg btn-block">Book Now!!</a></span></h3>
+                              <h3>空路でらくらく・マサイマラ4日間 <span><a href="orders" class="btn btn-info btn-lg btn-block">Book Now!!</a></span></h3>
                               <p>（目次）移動に軽飛行機を利用した、マサイマラ国立保護区へ向かうサファリツアーです。マサイマラはケニアを代表する国立保護区で、見渡す限りの美しい大草原に、たくさんの野生動物が生息しています。</p>
                                   <div class="panel panel-default">
                               <div class="panel-body">
@@ -240,7 +240,7 @@
                       </div>
                        <!--/End of PacB-->
                          <div id="pacc"class="tab-pane fade">
-                          <h3>赤道越えて・ケニア満喫7日間 <span><a href="" class="btn btn-info btn-lg btn-block">Book Now!!</a></span></h3>
+                          <h3>赤道越えて・ケニア満喫7日間 <span><a href="orders" class="btn btn-info btn-lg btn-block">Book Now!!</a></span></h3>
                           <p>（目次）赤道直下のケニアを陸路にて北から南へ周遊するサファリツアーです。赤道北部に位置するサンブルでは、南部ケニアとは気候が異なるため、他公園では見られない独特の動物が生息します。北部と南部の違いをお楽しみ頂けます。</p>
                               <div class="panel panel-default">
                               <div class="panel-body">
@@ -337,7 +337,7 @@
                       </div>
                        <!--/End of PacC-->
                          <div id="pacd"class="tab-pane fade">
-                          <h3>国境越えて・タンザニア8日間 <span><a href="" class="btn btn-info btn-lg btn-block">Book Now!!</a></span></h3>
+                          <h3>国境越えて・タンザニア8日間 <span><a href="orders" class="btn btn-info btn-lg btn-block">Book Now!!</a></span></h3>
                           <p>（目次）ケニア発着のタンザニアサファリツアーです。ナイロビから国境まで約3時間、あの有名なセレンゲティ国立公園とンゴロンゴロ・クレーターへのサファリです。</p>
                               <div class="panel panel-default">
                               <div class="panel-body">

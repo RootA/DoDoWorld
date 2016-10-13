@@ -12,13 +12,14 @@
 */
 
 //Payment Gateway API Routes
+Route::get('orders', 'PaymentController@Index');
+Route::post('order-post', ['as'=>'order-post','uses'=>'PaymentController@orderPost']);
 
 Route::get('payPremium', ['as'=>'payPremium','uses'=>'PaypalController@payPremium']);
 Route::post('getCheckout', ['as'=>'getCheckout','uses'=>'PaypalController@getCheckout']);
 Route::get('getDone', ['as'=>'getDone','uses'=>'PaypalController@getDone']);
 Route::get('getCancel', ['as'=>'getCancel','uses'=>'PaypalController@getCancel']);
 
-Route::post('order-post', ['as'=>'order-post','uses'=>'PaymentController@orderPost']);
 
 Route::get('/bl',['as'=>'pages.blog', 'uses'=>'PagesController@getBlog']);
 Route::get('blog/{slug}',['as' =>'pages.single','uses' => 'PagesController@getSingle'])->where('slug','[\w\d\-\_]+');
